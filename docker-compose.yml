@@ -18,11 +18,11 @@ services:
           cpus: '4'
           # maximun RAM this container can use
           memory: '16G'
-        reservations:
-          # Reserves is a minimun resource the container will always have.
-          # cpus: '4'
-          # memory: '4G'
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
+        # reservations:
+        #   # Reserves is a minimun resource the container will always have.
+        #   # cpus: '4'
+        #   # memory: '4G'
+        #   devices:
+        #     - driver: nvidia
+        #       count: 1
+        #       capabilities: [gpu]
